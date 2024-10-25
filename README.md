@@ -10,5 +10,5 @@ This project is just a very simple *HTML* project and it has 3 pages:
 ## The looks will be something like this
 ![screenshot](./assets/pic1.jpg)
 
-Check the project [here](https://github.com/revou-fsse-oct24/module-1-Jean0701)
+Check the project [here](https://github.com/revou-fsse-oct24/module-1-Jean0701/index.html)
 
