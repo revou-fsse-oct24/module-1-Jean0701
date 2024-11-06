@@ -1,0 +1,87 @@
+header {
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    
+}
+
+
+
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+    
+   
+}
+
+
+.navHeader{
+    width: 400px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.tentangKami{
+    padding-top: 80px;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  text-align: center;
+}
+
+.logoSection {
+    background-color: rgb(230, 174, 174) ;
+    border-radius: 20px;
+    color: rgb(237, 14, 14);
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    height: 30px;
+    }
+
+.produk {
+    padding-top: 80px;
+    margin-top: -70px;
+    display: grid;
+    width: 100%;
+    /*grid-template-rows: auto 1fr;*/
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.gridJudul {
+    grid-column: span 4;
+    place-items: center;
+   
+}
+.gridItem {
+    /*border: 1px solid #ddd;*/
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.gridItem img {
+    max-width: 100%
+
+}
+
+@media screen and (max-width: 700px) {
+    .hiddenNav {
+        display: none;
+    }
+    
+}
+
